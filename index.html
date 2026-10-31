@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elas em Evidência — 5 de dezembro de 2026</title>
+<meta name="description" content="Um encontro presencial para mulheres que decidiram assumir o protagonismo da própria história. 5 de dezembro de 2026, das 15h às 21h.">
+<meta name="theme-color" content="#FFFFFF">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Elas em Evidência — 5 de dezembro de 2026">
+<meta property="og:description" content="Um encontro presencial para mulheres que decidiram assumir o protagonismo da própria história. Sábado, das 15h às 21h.">
+<meta property="og:image" content="https://rhalley21.github.io/Elas-em-evidencia-evento/capa.jpg">
+<meta property="og:url" content="https://rhalley21.github.io/Elas-em-evidencia-evento/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z' fill='%23C9953A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFAF7; --hero:#FFFFFF; --tint:#EEF3FB; --navy:#0F2158; --navy-d:#0A1740;
+  --ink:#14214A; --muted:#566086; --line:#E1E5F0; --card:#FFFFFF;
+  --gold:#C9953A; --gold-l:#E6BE6E; --gold-t:#8A5A1C; --frame:#E9D7AE;
+  --btn-bg:#0F2158; --btn-ink:#FFFFFF; --link:#2D55B4;
+  --on-navy:#EAF0FF; --on-navy-m:#B4C0E3;
+  --serif:"Cormorant Garamond","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --sans:"Jost","Avenir Next","Segoe UI",system-ui,-apple-system,Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#0C1433; --hero:#0C1433; --tint:#101A40; --navy:#14246A; --navy-d:#08102E;
+    --ink:#EAF0FF; --muted:#A9B5D8; --line:#26346A; --card:#121C47; --gold-t:#E6BE6E; --frame:#5B5230;
+    --btn-bg:#E6BE6E; --btn-ink:#0A1740; --link:#9DB8F5; color-scheme:dark;
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 19px/1.65 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img,svg{max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.wrap{width:min(100% - 40px,1040px);margin-inline:auto}
+.narrow{max-width:880px}
+.center{text-align:center}.center.narrow{margin-inline:auto}
+section{padding:72px 0;scroll-margin-top:12px}
+.navy{background:var(--navy);color:var(--on-navy)}
+.tint{background:var(--tint)}
+.deep{background:var(--navy-d);color:var(--on-navy)}
+
+/* Tipografia */
+h1,h2,h3{font-family:var(--serif);font-weight:500;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(29px,7.3vw,48px);line-height:1.12;margin-bottom:22px}
+h2 em,.quote em{font-style:italic}
+h3{font-size:27px;line-height:1.15}
+p{margin:0 0 18px}
+.eyebrow{font:500 13px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--gold-t);margin:0 0 18px;display:block}
+.navy .eyebrow,.deep .eyebrow{color:var(--gold-l)}
+.lead{font-size:23px;color:var(--muted)}
+.navy .lead,.navy p{color:var(--on-navy)}
+.statement{font:500 clamp(26px,6.6vw,40px)/1.22 var(--serif);margin:30px 0 0;letter-spacing:-.005em}
+.statement em{font-style:italic;color:var(--gold-t)}
+.navy .statement em{color:var(--gold-l)}
+
+/* Detalhes decorativos */
+.rule{display:flex;align-items:center;gap:14px;color:var(--gold);margin:0 auto;max-width:260px}
+.rule i{flex:1;height:1px;background:currentColor;opacity:.5}
+.star{width:14px;height:14px;flex:none;color:var(--gold)}
+.navy .star,.deep .star{color:var(--gold-l)}
+
+/* Botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:58px;padding:0 30px;border-radius:999px;border:1.5px solid transparent;font:500 17px/1 var(--sans);letter-spacing:.05em;text-decoration:none;cursor:pointer;background:var(--btn-bg);color:var(--btn-ink);transition:transform .15s,filter .15s;text-align:center}
+.btn:hover{filter:brightness(1.1)}
+.btn:active{transform:scale(.98)}
+.btn.gold{background:var(--gold-l);color:#0A1740}
+.btn.line{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn.block{display:flex;width:100%}
+.stack{display:grid;gap:12px;max-width:420px;margin-inline:auto}
+
+/* Topo */
+.top{background:var(--hero);padding-top:env(safe-area-inset-top,0px)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;min-height:64px;gap:16px}
+.top .when{font:500 12px/1 var(--sans);letter-spacing:.24em;color:var(--gold-t);display:flex;align-items:center;gap:10px}
+.top nav{display:flex;align-items:center;gap:26px}
+.top nav a{text-decoration:none;font-size:16px;color:var(--muted);display:none}
+.top nav a:hover{color:var(--ink)}
+.top nav a.pill{display:inline-flex;align-items:center;min-height:42px;padding:0 20px;border-radius:999px;background:var(--btn-bg);color:var(--btn-ink);font:500 14px/1 var(--sans);letter-spacing:.05em}
+
+/* Hero */
+.hero{background:var(--hero);padding:8px 0 64px;text-align:center}
+.frame{width:min(100%,420px);margin:12px auto 0;padding:34px 24px 26px;background:#fff;border:1px solid var(--frame);border-radius:999px 999px 28px 28px}
+.frame img{display:block;width:100%;height:auto}
+.date{margin:34px 0 14px;font:500 clamp(46px,13vw,76px)/.95 var(--serif);letter-spacing:-.02em;color:var(--ink)}
+.date em{font-style:italic;color:var(--gold-t)}
+.meta{font:500 14px/1.7 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:16px 0 22px}
+.hero .lead{max-width:36ch;margin:0 auto 30px;font-size:24px;line-height:1.5;color:var(--ink)}
+.count{margin:22px 0 0;font-size:17px;color:var(--muted)}
+.count b{font:600 22px/1 var(--serif);color:var(--ink)}
+
+/* Faixa de preços */
+.prices{padding:0;background:var(--tint);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.prices a{display:grid;grid-template-columns:repeat(3,1fr);text-decoration:none;text-align:center}
+.prices span{padding:18px 6px;display:block}
+.prices span+span{border-left:1px solid var(--line)}
+.prices small{display:block;font:500 11px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--gold-t);margin-bottom:8px}
+.prices b{font:600 22px/1.05 var(--serif)}
+.prices em{display:block;font:400 12px/1.3 var(--sans);font-style:normal;color:var(--muted);margin-top:4px}
+
+/* Citação */
+.quote{font:500 clamp(27px,6.9vw,44px)/1.2 var(--serif);margin:30px 0 34px;letter-spacing:-.01em}
+.quote::before{content:"“";display:block;font-size:84px;line-height:.5;color:var(--gold);height:40px}
+
+/* Lista para quem */
+.who{list-style:none;margin:0 0 34px;padding:0;display:grid;gap:0}
+.who li{position:relative;padding:18px 0 18px 36px;border-top:1px solid var(--line)}
+.who li:last-child{border-bottom:1px solid var(--line)}
+.who li::before{content:"";position:absolute;left:2px;top:27px;width:12px;height:12px;background:var(--gold);clip-path:path("M6 0C6.4 3.6 8.4 5.6 12 6C8.4 6.4 6.4 8.4 6 12C5.6 8.4 3.6 6.4 0 6C3.6 5.6 5.6 3.6 6 0Z")}
+
+/* Temas */
+.themes{display:grid;gap:34px;margin-top:38px}
+.theme{border-top:1px solid #ffffff2e;padding-top:22px}
+.theme .n{font:500 italic 22px/1 var(--serif);color:var(--gold-l);display:block;margin-bottom:12px}
+.theme h3{color:#fff;margin-bottom:12px}
+.theme p{color:var(--on-navy-m);margin-bottom:6px}
+details summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:8px;font:500 14px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);padding:12px 0;min-height:44px}
+details summary::-webkit-details-marker{display:none}
+details summary .m2{display:none}
+details[open] summary .m1{display:none}
+details[open] summary .m2{display:inline}
+details summary::after{content:"+";font:400 20px/1 var(--sans);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+.more-body p:last-child{margin-bottom:0}
+.light-sum summary{color:var(--gold-t)}
+
+/* Leilane */
+.bio{display:grid;gap:44px;align-items:start}
+.portrait{width:min(300px,80%);aspect-ratio:5/6;margin:0 auto;border-radius:999px 999px 28px 28px;background:var(--navy);position:relative}
+.portrait img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 12%;border-radius:inherit}
+.portrait::after{content:"";position:absolute;inset:-12px;border:1px solid var(--frame);border-radius:999px 999px 38px 38px}
+.bio h3{font-size:34px;margin-bottom:4px}
+.role{color:var(--gold-t);font:500 13px/1.5 var(--sans);letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px}
+
+/* Informações e ingressos */
+.info{display:grid;grid-template-columns:1fr 1fr;gap:26px 20px;margin:34px 0 48px}
+.info div{border-top:1px solid var(--line);padding-top:14px}
+.info dt{font:500 11px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--gold-t);margin-bottom:8px}
+.info dd{margin:0;font:500 21px/1.2 var(--serif)}
+.info dd.tbd{font:400 19px/1.4 var(--sans);color:var(--muted)}
+.info dd.teaser{font:500 italic 26px/1.15 var(--serif);color:var(--gold-t)}
+.info dd.teaser small{display:block;font:400 17px/1.4 var(--sans);font-style:normal;color:var(--muted);margin-top:6px}
+.tickets{display:grid;gap:26px}
+.ticket{position:relative;background:var(--card);border:1px solid var(--line);border-radius:26px;padding:34px 26px 28px}
+.ticket{display:flex;flex-direction:column}
+.ticket .btn{margin-top:auto}
+.ticket h3{margin-bottom:2px}
+.ticket .sub{color:var(--muted);font-size:18px;margin:0 0 14px}
+.ticket .price{font:600 clamp(52px,15vw,62px)/1 var(--serif);letter-spacing:-.02em;margin:6px 0 4px}
+.ticket .price small{display:block;font:400 17px/1.2 var(--sans);letter-spacing:0;color:var(--muted);margin:6px 0 0}
+.ticket .inst{font-size:18px;color:var(--muted);margin:0 0 22px;min-height:24px}
+.ticket .badge{position:absolute;top:-12px;left:24px;background:var(--gold-l);color:#0A1740;font:500 11px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;padding:8px 14px;border-radius:999px}
+.ticket.feat{background:var(--navy);color:var(--on-navy);border-color:var(--gold)}
+.ticket.feat .sub,.ticket.feat .price small,.ticket.feat .inst{color:var(--on-navy-m)}
+.ticket.feat h3{color:#fff}
+.ticket.feat .btn{background:var(--gold-l);color:#0A1740}
+.ticket .share{display:block;text-align:center;margin-top:16px;font-size:15px;color:var(--gold-l);text-underline-offset:4px}
+.steps{list-style:none;counter-reset:s;margin:56px 0 0;padding:0;display:grid;gap:24px}
+.steps li{counter-increment:s;position:relative;padding-left:58px;min-height:42px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:-2px;width:40px;height:40px;border-radius:50%;border:1px solid var(--gold);display:grid;place-items:center;font:500 italic 22px/1 var(--serif);color:var(--gold-t)}
+.steps b{display:block;font:500 22px/1.2 var(--serif);margin-bottom:2px}
+.steps span{color:var(--muted);font-size:19px}
+.safe{margin:38px 0 0;padding:20px 22px;border-radius:18px;background:var(--tint);font-size:18px;color:var(--muted)}
+.safe b{color:var(--ink);font-weight:500}
+.soon{display:none;margin:26px 0 0;padding:16px 20px;border-radius:18px;border:1px solid var(--gold);font-size:15.5px;color:var(--ink)}
+
+/* FAQ */
+.faq details{border-top:1px solid var(--line)}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{display:flex;justify-content:space-between;gap:16px;width:100%;padding:20px 0;font:500 26px/1.2 var(--serif);letter-spacing:-.005em;text-transform:none;color:var(--ink);min-height:64px}
+.faq summary::after{color:var(--gold-t);flex:none}
+.faq details p{color:var(--muted);margin:0 0 22px;max-width:none}
+.faq a{color:var(--link)}
+
+/* Chamada final e rodapé */
+.final h2{margin-inline:auto;max-width:none}
+.final p{max-width:66ch;margin-inline:auto}
+.final .leaf{width:30px;height:30px;color:var(--gold-l);margin:0 auto 22px;display:block}
+footer.deep{padding:44px 0 calc(110px + env(safe-area-inset-bottom,0px));font-size:17px;color:var(--on-navy-m);text-align:center}
+footer a{color:var(--on-navy);text-underline-offset:4px}
+footer .brand{font:500 italic 26px/1 var(--serif);color:#fff;margin:18px 0 14px}
+footer p{margin:0 0 8px}
+
+/* Barra fixa (celular) */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));background:var(--navy-d);color:#fff;box-shadow:0 -10px 30px #0a174026;transform:translateY(115%);transition:transform .3s ease}
+.bar.show{transform:none}
+.bar .p small{display:block;font:500 11px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold-l);margin-bottom:4px}
+.bar .p b{font:600 22px/1 var(--serif)}
+.bar .btn{min-height:48px;padding:0 22px;font-size:15px;background:var(--gold-l);color:#0A1740}
+
+/* Janela de compra */
+dialog{border:0;padding:0;background:var(--paper);color:var(--ink);width:min(580px,100%);max-width:100%;max-height:min(100dvh,880px);border-radius:28px;box-shadow:0 30px 80px #0a174066;overflow:auto}
+dialog::backdrop{background:#0a1740cc}
+body:has(dialog[open]){overflow:hidden}
+.sheet{padding:22px 20px calc(30px + env(safe-area-inset-bottom,0px));display:grid;gap:20px}
+.sheet-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.sheet-top h2{margin:0;font-size:32px}
+.x{flex:none;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--ink);font:400 26px/1 var(--sans);cursor:pointer}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.seg button{display:grid;place-items:center;padding:12px 4px;border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--ink);font:inherit;cursor:pointer;min-height:52px}
+.seg b{font:500 16px/1.2 var(--sans);letter-spacing:.04em}
+.seg span{font:600 19px/1.1 var(--serif)}
+.seg button[aria-selected="true"]{background:var(--navy);color:#fff;border-color:var(--gold)}
+.hint{margin:0;font-size:17.5px;color:var(--muted)}
+.person{border:0;padding:0;margin:0 0 6px;display:grid;gap:12px}
+.person legend{font:500 22px/1.2 var(--serif);padding:0;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;width:100%}
+.person label{display:grid;gap:6px;font:500 14px/1.2 var(--sans);letter-spacing:.06em;color:var(--muted)}
+.person input{width:100%;min-height:52px;padding:0 16px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);font:400 16px/1.2 var(--sans)}
+.person input:focus{border-color:var(--gold);outline:none}
+.rm{border:0;background:none;color:var(--muted);font:500 14px/1 var(--sans);cursor:pointer;text-decoration:underline;text-underline-offset:4px;min-height:44px}
+.linkbtn{border:0;background:none;color:var(--gold-t);font:500 15px/1 var(--sans);letter-spacing:.04em;cursor:pointer;min-height:44px;text-align:left;padding:0;text-decoration:underline;text-underline-offset:5px}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.check{display:flex;gap:12px;align-items:flex-start;font-size:16px;color:var(--muted);line-height:1.5}
+.check input{width:22px;height:22px;margin-top:2px;flex:none;accent-color:var(--navy)}
+.err{min-height:22px;font-size:16px;color:#B3261E}
+@media (prefers-color-scheme:dark){.err{color:#FF9D96}}
+#step2{display:grid;gap:18px}
+.pay-box{display:grid;gap:16px;justify-items:center;text-align:center}
+.pay-box h3{font-size:30px}
+.pay-total{font:600 44px/1 var(--serif);letter-spacing:-.02em}
+.qr{width:min(260px,70vw);height:auto;border-radius:18px;border:1px solid var(--line);background:#fff;padding:10px}
+.copia{width:100%;min-height:96px;padding:12px;border:1.5px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);font:400 13px/1.4 ui-monospace,Menlo,Consolas,monospace;resize:none}
+.how{text-align:left;margin:0;padding-left:22px;color:var(--muted);font-size:17px;display:grid;gap:6px;width:100%}
+.done{width:100%;text-align:left;padding:16px 18px;border-radius:18px;background:var(--tint);font-size:17px;color:var(--muted)}
+.done b{color:var(--ink);font-weight:500}
+.codes{margin:8px 0 0;padding:0;list-style:none;display:grid;gap:4px}
+.codes li b{font:600 18px/1 var(--serif);color:var(--ink);margin-right:6px}
+.method{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%}
+.method button{min-height:48px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:500 15px/1 var(--sans);cursor:pointer}
+.method button[aria-pressed="true"]{background:var(--navy);color:#fff;border-color:var(--gold)}
+.btn.outline{background:transparent;color:var(--ink);border-color:var(--line)}
+@media (max-width:640px){
+  dialog{width:100%;height:100%;max-height:100%;border-radius:0;margin:0;inset:0}
+  .sheet-top h2{font-size:28px}
+}
+
+/* Telas maiores */
+@media (min-width:900px){
+  body{font-size:22px}
+  section{padding:120px 0}
+  .top nav a{display:inline}
+  .hero{padding:24px 0 96px}
+  .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center;text-align:left}
+  .hero .copy{order:1}.hero .frame{order:2;margin:0 0 0 auto}
+  .hero .rule{margin-inline:0}
+  .hero .lead{margin-inline:0;max-width:26ch}
+  .stack{grid-auto-flow:column;grid-auto-columns:max-content;margin-inline:0;max-width:none}
+  .two-col>div:last-child{max-width:900px}
+  .who{grid-template-columns:1fr 1fr;column-gap:56px}
+  .who li:nth-last-child(2){border-bottom:1px solid var(--line)}
+  .themes{grid-template-columns:1fr 1fr;gap:48px 56px}
+  .bio{grid-template-columns:300px 1fr;gap:72px}
+  .portrait{margin:0;width:100%}
+  .info{grid-template-columns:repeat(4,1fr)}
+  .tickets{grid-template-columns:repeat(3,1fr);gap:22px}
+  .steps{grid-template-columns:repeat(4,1fr);gap:28px}
+  .bar{display:none}
+  footer.deep{padding-bottom:48px}
+  .final .stack{max-width:420px;margin-inline:auto;grid-auto-flow:row;grid-auto-columns:auto}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="star" viewBox="0 0 24 24"><path d="M12 0C12.8 7 17 11.2 24 12C17 12.8 12.8 17 12 24C11.2 17 7 12.8 0 12C7 11.2 11.2 7 12 0Z" fill="currentColor"/></symbol>
+    <symbol id="leaf" viewBox="0 0 24 24"><path d="M2 22C2 10 10 2 22 2C22 14 14 22 2 22Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="M3 21C9 15 13 11 17 7" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></symbol>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <span class="when"><svg class="star" aria-hidden="true"><use href="#star"/></svg>05 · 12 · 2026</span>
+    <nav aria-label="Principal">
+      <a href="#sobre">O encontro</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#leilane">Leilane Mendes</a>
+      <a href="#faq">Dúvidas</a>
+      <a class="pill" href="#ingressos">Ingressos</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="topo">
+    <div class="wrap">
+      <div class="frame"><img src="logo.jpg" width="760" height="546" alt="Elas em Evidência" fetchpriority="high"></div>
+      <div class="copy">
+        <h1 class="sr-only">Elas em Evidência — 5 de dezembro de 2026</h1>
+        <p class="date">5 de <em>dezembro</em></p>
+        <div class="rule" aria-hidden="true"><i></i><svg class="star"><use href="#star"/></svg><i></i></div>
+        <p class="meta">Sábado · das 15h às 21h<br>Encontro presencial</p>
+        <p class="lead">Uma experiência para mulheres que decidiram assumir o protagonismo da própria história.</p>
+        <div class="stack">
+          <a class="btn" href="#ingressos">Quero viver essa experiência</a>
+          <a class="btn line" href="#sobre">Conheça o encontro</a>
+        </div>
+        <p class="count" id="count" hidden>Faltam <b id="dias">--</b> dias</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="navy">
+    <div class="wrap two-col">
+      <div>
+        <span class="eyebrow">O encontro</span>
+        <h2>O próximo passo começa com uma <em>decisão sua.</em></h2>
+      </div>
+      <div>
+        <p class="lead">O Elas em Evidência é um encontro presencial criado para mulheres que desejam ampliar sua visão, fortalecer sua identidade, desenvolver sua liderança pessoal e construir conexões que façam sentido para a fase que estão vivendo.</p>
+        <p>Mais do que participar de um evento, é uma oportunidade de reservar um tempo para si, refletir sobre suas escolhas e encontrar inspiração e clareza para agir.</p>
+        <p class="statement">Estar em evidência não é apenas ser vista pelos outros. É reconhecer o próprio valor, assumir sua posição e decidir como deseja <em>conduzir a própria história.</em></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="nasceu">
+    <div class="wrap narrow">
+      <span class="eyebrow">Nossa origem</span>
+      <h2>Por que o Elas em Evidência nasceu?</h2>
+      <p>Em meio a tantas responsabilidades, muitas mulheres se acostumaram a cuidar de tudo, resolver problemas, atender expectativas e deixar seus próprios planos para depois.</p>
+      <p>Mas existe uma pergunta que merece ser feita:</p>
+      <p class="quote">Em que momento você decidiu colocar seus sonhos, suas escolhas e seu desenvolvimento em <em>segundo plano?</em></p>
+      <p>O Elas em Evidência nasce do desejo de criar um ambiente onde mulheres possam compartilhar experiências, ampliar perspectivas e compreender que não precisam esperar pelo momento perfeito para começar.</p>
+      <p>Um encontro pensado para provocar reflexões, fortalecer conexões e incentivar decisões que ultrapassem aquele dia.</p>
+    </div>
+  </section>
+
+  <section id="para-quem" class="tint">
+    <div class="wrap">
+      <div class="narrow">
+        <span class="eyebrow">Para quem é</span>
+        <h2>Para quem é o Elas em Evidência?</h2>
+        <p class="lead">Este encontro é para mulheres que:</p>
+      </div>
+      <ul class="who">
+        <li>Desejam desenvolver sua liderança pessoal e ter mais clareza sobre suas decisões.</li>
+        <li>Sentem que chegou o momento de priorizar o próprio crescimento.</li>
+        <li>Querem fortalecer sua identidade, confiança e presença.</li>
+        <li>Buscam novas conexões e ambientes que ampliem sua visão.</li>
+        <li>Têm sonhos, projetos ou decisões que precisam sair do papel.</li>
+        <li>Desejam viver uma experiência de aprendizado, troca e desenvolvimento.</li>
+        <li>Sentem necessidade de alinhar suas escolhas com seus valores e sua espiritualidade.</li>
+        <li>Querem fortalecer a mente, renovar sua perspectiva e se reconectar com seu propósito.</li>
+      </ul>
+      <div class="narrow">
+        <p>Você não precisa ser empresária, ocupar um cargo de liderança ou ter todas as respostas.</p>
+        <p class="statement" style="margin-top:12px">O Elas em Evidência é para a mulher que reconhece que ainda existem novos espaços para ocupar e <em>novas possibilidades para construir.</em></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencia" class="navy">
+    <div class="wrap">
+      <div class="narrow">
+        <span class="eyebrow">A experiência</span>
+        <h2>O que você vai encontrar <em>nessa experiência?</em></h2>
+      </div>
+      <div class="themes">
+        <article class="theme">
+          <span class="n">01</span>
+          <h3>Liderança pessoal</h3>
+          <p>Antes de liderar qualquer pessoa, é preciso aprender a conduzir a própria vida.</p>
+          <details><summary><span class="m1">Ler mais</span><span class="m2">Ler menos</span></summary><div class="more-body"><p>Você será convidada a refletir sobre suas escolhas, prioridades, responsabilidades e sobre a importância de assumir a direção da própria história. Mesmo quando não podemos controlar tudo o que acontece, podemos escolher como responder, quais caminhos seguir e quais decisões tomar.</p></div></details>
+        </article>
+        <article class="theme">
+          <span class="n">02</span>
+          <h3>Mentalidade</h3>
+          <p>A forma como você pensa influencia a forma como enxerga a si mesma, suas possibilidades e os desafios que surgem pelo caminho.</p>
+          <details><summary><span class="m1">Ler mais</span><span class="m2">Ler menos</span></summary><div class="more-body"><p>Nesta experiência, vamos refletir sobre crenças, padrões, medos e pensamentos que podem limitar suas decisões. Um momento para ampliar sua visão, fortalecer sua confiança e desenvolver uma mentalidade mais consciente, aberta e preparada para novos movimentos.</p></div></details>
+        </article>
+        <article class="theme">
+          <span class="n">03</span>
+          <h3>Espiritualidade e propósito</h3>
+          <p>A espiritualidade será abordada como um espaço de conexão interior, fé, valores e sentido.</p>
+          <details><summary><span class="m1">Ler mais</span><span class="m2">Ler menos</span></summary><div class="more-body"><p>Um convite para silenciar o excesso de cobranças, ouvir o que existe dentro de você e reconhecer aquilo que orienta suas escolhas. Mais do que alcançar resultados, trata-se de compreender por que você deseja construir determinada trajetória e como pode viver de maneira mais alinhada com seus princípios.</p></div></details>
+        </article>
+        <article class="theme">
+          <span class="n">04</span>
+          <h3>Identidade e presença</h3>
+          <p>Reconhecer quem você é, compreender seu valor e desenvolver uma presença que represente sua essência, suas convicções e aquilo que deseja construir.</p>
+          <details><summary><span class="m1">Ler mais</span><span class="m2">Ler menos</span></summary><div class="more-body"><p>Você será estimulada a olhar para sua história com mais respeito, reconhecer suas conquistas e compreender que sua identidade não precisa ser definida pelas expectativas dos outros.</p></div></details>
+        </article>
+        <article class="theme">
+          <span class="n">05</span>
+          <h3>A mesa certa</h3>
+          <p>Os ambientes que frequentamos e as pessoas com quem nos conectamos influenciam nossa maneira de pensar e enxergar possibilidades.</p>
+          <details><summary><span class="m1">Ler mais</span><span class="m2">Ler menos</span></summary><div class="more-body"><p>Vamos conversar sobre pertencimento, conexões e a importância de escolher ambientes que contribuam para seu desenvolvimento, respeitem sua essência e estimulem seu crescimento.</p></div></details>
+        </article>
+        <article class="theme">
+          <span class="n">06</span>
+          <h3>Coragem para agir</h3>
+          <p>Conhecimento, mentalidade e espiritualidade ganham significado quando se transformam em decisões.</p>
+          <details><summary><span class="m1">Ler mais</span><span class="m2">Ler menos</span></summary><div class="more-body"><p>Esta experiência será um convite para reconhecer o que precisa mudar, fortalecer sua coragem e começar a construir os próximos passos com mais clareza, consciência e intenção.</p></div></details>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="leilane">
+    <div class="wrap bio">
+      <div class="portrait"><img src="leilane.jpg" width="720" height="864" alt="Leilane Mendes, CEO do Instituto Inetris e idealizadora do Elas em Evidência" loading="lazy" decoding="async"></div>
+      <div>
+        <span class="eyebrow">Idealizadora</span>
+        <h3>Leilane Mendes</h3>
+        <p class="role">CEO do Instituto Inetris, mentora e idealizadora do Elas em Evidência</p>
+        <p>Leilane Mendes dedica sua trajetória profissional ao desenvolvimento de pessoas, líderes e organizações. À frente do Instituto Inetris, atua com liderança, comportamento humano, cultura organizacional e gestão, ajudando pessoas e empresas a desenvolverem clareza, responsabilidade e novas formas de conduzir seus resultados.</p>
+        <details class="light-sum"><summary><span class="m1">Ler mais</span><span class="m2">Ler menos</span></summary><div class="more-body">
+          <p>Sua visão de liderança vai além dos cargos e das posições ocupadas. Para Leilane, liderar começa nas escolhas que fazemos diariamente, na responsabilidade que assumimos sobre nossa própria história e na disposição de continuar aprendendo e evoluindo.</p>
+          <p>O Elas em Evidência nasce dessa convicção: toda mulher pode desenvolver sua liderança pessoal, fortalecer sua mentalidade, aprofundar sua conexão interior e reconhecer o valor da própria trajetória.</p>
+          <p>Como idealizadora, Leilane deseja criar um espaço onde mulheres possam se encontrar, compartilhar perspectivas e fortalecer a coragem de dar novos passos, sem abrir mão de seus valores, sua essência e sua espiritualidade.</p>
+        </div></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="especial" class="tint">
+    <div class="wrap center narrow">
+      <div class="rule" aria-hidden="true" style="margin-bottom:34px"><i></i><svg class="star"><use href="#star"/></svg><i></i></div>
+      <h2 style="margin-inline:auto">O que torna esse encontro especial?</h2>
+      <p class="lead">Um ambiente pensado para mulheres, suas histórias, sua mente, sua fé e suas possibilidades.</p>
+      <p>O Elas em Evidência não foi criado para apresentar fórmulas prontas ou dizer qual caminho cada mulher deve seguir. Foi pensado para abrir espaço para conversas importantes, reflexões profundas e conexões genuínas.</p>
+      <p>Uma experiência que integra liderança pessoal, mentalidade e espiritualidade de forma acolhedora e consciente, respeitando a individualidade, a história e as crenças de cada participante.</p>
+      <p class="statement" style="margin-top:26px">Aqui, o desenvolvimento não começa pela comparação, mas pelo reconhecimento da <em>própria trajetória.</em></p>
+    </div>
+  </section>
+
+  <section id="ingressos">
+    <div class="wrap">
+      <div class="narrow">
+        <span class="eyebrow">Ingressos</span>
+        <h2>Garanta o seu <em>lugar.</em></h2>
+        <p class="lead">Escolha como prefere pagar. Todas as opções dão acesso ao encontro inteiro.</p>
+      </div>
+
+      <dl class="info">
+        <div><dt>Data</dt><dd>Sábado, 5 de dezembro</dd></div>
+        <div><dt>Horário</dt><dd>Das 15h às 21h</dd></div>
+        <div><dt>Local</dt><dd class="teaser"><svg class="star" aria-hidden="true" style="width:12px;height:12px;margin-right:8px;vertical-align:2px"><use href="#star"/></svg>A divulgar<small>Um segredo, por enquanto.</small></dd></div>
+        <div><dt>Inclui</dt><dd class="tbd">Será divulgado em breve</dd></div>
+      </dl>
+
+      <div class="tickets">
+        <article class="ticket">
+          <span class="badge">Melhor preço individual</span>
+          <h3>Pix</h3>
+          <p class="sub">Ingresso individual</p>
+          <div class="price">R$ 229,90</div>
+          <p class="inst">Pagamento à vista</p>
+          <a class="btn block" data-pay="pix" href="#ingressos">Garantir com Pix</a>
+        </article>
+        <article class="ticket">
+          <h3>Cartão</h3>
+          <p class="sub">Ingresso individual</p>
+          <div class="price">R$ 249,90</div>
+          <p class="inst">Em até 3x sem juros de R$ 83,30</p>
+          <a class="btn block" data-pay="cartao" href="#ingressos">Garantir no cartão</a>
+        </article>
+        <article class="ticket feat">
+          <span class="badge">Venha acompanhada</span>
+          <h3>Grupo de 3 ou mais</h3>
+          <p class="sub">Para você e suas amigas</p>
+          <div class="price">R$ 197,50<small>por pessoa</small></div>
+          <p class="inst">A partir de 3 pessoas. Cada uma paga o seu, no Pix ou no cartão (até 3x sem juros)</p>
+          <a class="btn block" data-pay="grupo" href="#ingressos">Garantir para o grupo</a>
+          <a class="share" id="share" href="#" target="_blank" rel="noopener">Convidar amigas pelo WhatsApp</a>
+        </article>
+      </div>
+
+      <ol class="steps">
+        <li><b>Escolha</b><span>Selecione Pix, cartão ou grupo e preencha seus dados.</span></li>
+        <li><b>Pague</b><span>Pix por QR Code ou cartão parcelado sem juros.</span></li>
+        <li><b>Receba</b><span>Quando a organização confirmar o pagamento, o convite com seu nome e QR Code chega por e-mail.</span></li>
+        <li><b>Apresente</b><span>No dia, mostre o convite e um documento com foto na entrada.</span></li>
+      </ol>
+
+      <p class="safe"><b>Pagamento seguro:</b> pague somente pelo QR Code do Pix ou pelo link de cartão mostrados nesta página. No Pix, confira se o recebedor é INETRIS.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="tint faq">
+    <div class="wrap narrow">
+      <span class="eyebrow">Dúvidas</span>
+      <h2>Perguntas frequentes</h2>
+      <div>
+        <details><summary>Preciso ser empresária para participar?</summary><p>Não. O Elas em Evidência é um encontro para mulheres que desejam desenvolver sua liderança pessoal, fortalecer sua mentalidade, ampliar sua presença e aprofundar sua conexão com seus valores e propósito, independentemente da profissão.</p></details>
+        <details><summary>Preciso seguir alguma religião específica?</summary><p>Não. A abordagem sobre espiritualidade será acolhedora, respeitosa e aberta à diversidade de crenças e experiências. O objetivo é estimular conexão interior, propósito, valores e sentido, sem impor uma religião ou doutrina.</p></details>
+        <details><summary>Posso participar mesmo sem conhecer ninguém?</summary><p>Sim. O encontro é aberto a inscrições individuais e foi pensado para proporcionar um ambiente de troca, acolhimento e conexão entre mulheres.</p></details>
+        <details><summary>O evento é apenas sobre carreira e negócios?</summary><p>Não. O encontro aborda liderança pessoal, mentalidade, espiritualidade, identidade, presença, propósito, conexões e escolhas que se relacionam com diferentes áreas da vida.</p></details>
+        <details><summary>Preciso estar vivendo uma crise ou ter um grande objetivo?</summary><p>Não. Você pode participar em qualquer fase da sua vida. A experiência foi criada tanto para mulheres que desejam superar desafios quanto para aquelas que querem se fortalecer, ampliar sua visão e se preparar para novos ciclos.</p></details>
+        <details><summary>Quais são as formas de pagamento?</summary><p>Você pode pagar no Pix ou no cartão, com parcelamento sem juros. Os valores e as condições de cada ingresso estão na seção de ingressos, logo acima.</p></details>
+        <details><summary>Como faço minha inscrição?</summary><p>Escolha Pix, cartão ou grupo nesta página, preencha seus dados e pague pelo QR Code do Pix ou pelo link de cartão que aparecem na sequência.</p></details>
+        <details><summary>Como recebo meu convite?</summary><p>Assim que a organização confirmar o seu pagamento, você recebe por e-mail o convite com seu nome, seu código e o QR Code. Apresente-o, com um documento com foto, na entrada.</p></details>
+        <details><summary>Como meus dados são usados?</summary><p>Usamos seu nome, e-mail e WhatsApp apenas para confirmar sua inscrição, enviar o convite e controlar a entrada no evento. Para pedir a exclusão dos seus dados, fale com o Instituto pelo WhatsApp ou pelo e-mail abaixo.</p></details>
+        <details><summary>Onde será realizado?</summary><p>O local é um segredo por enquanto e será divulgado em breve.</p></details>
+        <details><summary>Tenho outra dúvida. Com quem falo?</summary><p>Fale com o Instituto Inetris pelo <a href="https://wa.me/558988075328?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20Elas%20em%20Evid%C3%AAncia." target="_blank" rel="noopener">WhatsApp (89) 8807-5328</a> ou pelo e-mail <a href="mailto:inetris25@gmail.com">inetris25@gmail.com</a>.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="navy final center" id="reserva">
+    <div class="wrap">
+      <svg class="leaf" aria-hidden="true"><use href="#leaf"/></svg>
+      <h2>Você não precisa esperar por um novo ano para começar a fazer <em>novas escolhas.</em></h2>
+      <p>Talvez o próximo passo não seja mudar tudo de uma vez. Talvez seja reservar um tempo para si, cuidar da sua mente, fortalecer sua conexão interior, estar em um novo ambiente, ouvir outras perspectivas e reconhecer que sua história ainda tem muitos caminhos possíveis.</p>
+      <p>No dia 5 de dezembro, queremos reunir mulheres dispostas a viver uma experiência de desenvolvimento, reflexão e conexão.</p>
+      <p class="statement" style="margin:28px auto 34px;max-width:none">Um encontro para reconhecer quem você é e decidir como deseja <em>continuar.</em></p>
+      <div class="stack"><a class="btn gold" href="#ingressos">Quero garantir meu ingresso</a></div>
+    </div>
+  </section>
+</main>
+
+<footer class="deep">
+  <div class="wrap">
+    <div class="rule" aria-hidden="true"><i></i><svg class="star"><use href="#star"/></svg><i></i></div>
+    <p class="brand">Elas em Evidência</p>
+    <p>Sábado, 5 de dezembro de 2026 · das 15h às 21h</p>
+    <p>Idealização: Leilane Mendes · Instituto Inetris</p>
+    <p><a href="https://wa.me/558988075328?text=Ol%C3%A1%21%20Quero%20saber%20mais%20sobre%20o%20Elas%20em%20Evid%C3%AAncia." target="_blank" rel="noopener">WhatsApp (89) 8807-5328</a> · <a href="mailto:inetris25@gmail.com">inetris25@gmail.com</a></p>
+  </div>
+</footer>
+
+<div class="bar" id="bar" role="region" aria-label="Ingresso">
+  <div class="p"><small>Elas em Evidência</small><b>5 de dezembro</b></div>
+  <a class="btn" data-pay="pix" href="#ingressos">Garantir ingresso</a>
+</div>
+
+<dialog id="pay" aria-labelledby="payTitle">
+  <div class="sheet">
+    <div class="sheet-top"><h2 id="payTitle">Garantir meu ingresso</h2><button class="x" type="button" id="payClose" aria-label="Fechar">×</button></div>
+    <div class="seg" role="tablist" aria-label="Tipo de ingresso">
+      <button type="button" role="tab" data-t="pix"><b>Pix</b></button>
+      <button type="button" role="tab" data-t="cartao"><b>Cartão</b></button>
+      <button type="button" role="tab" data-t="grupo"><b>Grupo 3+</b></button>
+    </div>
+    <div id="step1">
+      <form id="regForm" novalidate>
+        <p class="hint" id="tipoHint"></p>
+        <div id="people"></div>
+        <button type="button" class="linkbtn" id="addP" hidden>+ Adicionar pessoa</button>
+        <input type="text" id="hp" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label class="check" style="margin-top:14px"><input type="checkbox" id="aceite"><span>Concordo em receber comunicados sobre o evento e que meus dados sejam usados apenas para a organização dele.</span></label>
+        <div class="err" id="regErr" role="alert"></div>
+        <button class="btn block" type="submit" id="regBtn">Continuar para o pagamento</button>
+      </form>
+    </div>
+    <div id="step2" hidden></div>
+  </div>
+</dialog>
+
+<script>
+/* ====== EDITE AQUI ====== */
+const API_URL = "https://script.google.com/macros/s/AKfycbz9acW-GGlwIyaF-m3FTkQWlIi37CFIG5F4-B2Ag7th4uqdp1dCc_dQEhWzjE2HC-vG/exec";
+const LINK_CARTAO = "https://link.infinitepay.io/inetris-933/VC1DLTMtSQ-tlckAbUbdq-249,90";
+const LINK_CARTAO_GRUPO = "https://link.infinitepay.io/inetris-933/VC1DLTMtSQ-73kHbAqzm6-197,50";
+const PIX_CODIGO = {
+  pix: "00020101021126360014BR.GOV.BCB.PIX0114612415890001045204000053039865406229.905802BR5907INETRIS6015VALENCA DO PIAU62070503***63041820",
+  grupo: "00020101021126360014BR.GOV.BCB.PIX0114612415890001045204000053039865406197.505802BR5907INETRIS6015VALENCA DO PIAU62070503***630483FC"
+};
+const EVENT_START = "2026-12-05T15:00:00-03:00";
+const WHATS = "558988075328";
+/* ======================== */
+
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const brl = n => "R$ " + n.toFixed(2).replace(".", ",");
+const TIPOS = {
+  pix:    { valor: 229.90, minimo: 1, dica: "Preencha seus dados. Em seguida mostramos o QR Code do Pix." },
+  cartao: { valor: 249.90, minimo: 1, dica: "Preencha seus dados. Em seguida você segue para o pagamento no cartão, em até 3x sem juros." },
+  grupo:  { valor: 197.50, minimo: 3, dica: "Para 3 ou mais pessoas. Cada pessoa paga o próprio ingresso, no Pix ou no cartão (até 3x sem juros). Preencha os dados de cada uma: cada pessoa recebe o próprio convite por e-mail." }
+};
+const MAX_GRUPO = 10;
+
+/* Contagem em dias */
+(function(){
+  const dias = Math.ceil((new Date(EVENT_START).getTime() - Date.now()) / 86400000);
+  if (dias > 0){ $("#dias").textContent = dias; $("#count").hidden = false; }
+})();
+
+/* Convite por WhatsApp no cartão do grupo */
+$("#share").href = "https://wa.me/?text=" + encodeURIComponent("Vem comigo no Elas em Evidência, dia 5 de dezembro! " + location.href.split("#")[0]);
+
+/* ---------- Janela de compra ---------- */
+const dlg = $("#pay");
+let tipo = "pix", pessoas = [{ nome: "", email: "", whats: "" }], enviando = false;
+
+function el(tag, cls, txt){ const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
+
+function openPay(t){
+  if (typeof dlg.showModal !== "function"){
+    location.href = "https://wa.me/" + WHATS + "?text=" + encodeURIComponent("Olá! Quero garantir meu ingresso do Elas em Evidência.");
+    return;
+  }
+  setTipo(t || "pix", true);
+  if (!dlg.open) dlg.showModal();
+}
+
+function setTipo(t, force){
+  if (!force && t === tipo) return;
+  readPeople();
+  tipo = t;
+  const min = TIPOS[t].minimo;
+  while (pessoas.length < min) pessoas.push({ nome: "", email: "", whats: "" });
+  if (min === 1) pessoas = pessoas.slice(0, 1);
+  $$("#pay .seg button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.t === t)));
+  $("#tipoHint").textContent = TIPOS[t].dica;
+  $("#regErr").textContent = "";
+  $("#step1").hidden = false; $("#step2").hidden = true; $("#step2").replaceChildren();
+  buildPeople();
+}
+
+function field(label, type, key, i, auto, ph){
+  const l = el("label", null, label.toUpperCase());
+  const inp = el("input"); inp.type = type; inp.value = pessoas[i][key] || ""; inp.dataset.i = i; inp.dataset.k = key;
+  if (auto) inp.autocomplete = auto; if (ph) inp.placeholder = ph;
+  if (type === "email") inp.inputMode = "email";
+  if (type === "tel") inp.inputMode = "tel";
+  l.appendChild(inp); return l;
+}
+function buildPeople(){
+  const box = $("#people"); box.replaceChildren();
+  pessoas.forEach((p, i) => {
+    const fs = el("fieldset", "person");
+    const lg = el("legend", null, i === 0 ? (tipo === "grupo" ? "Pessoa 1 (responsável)" : "Seus dados") : "Pessoa " + (i + 1));
+    if (tipo === "grupo" && i >= 3){
+      const rm = el("button", "rm", "Remover"); rm.type = "button";
+      rm.onclick = () => { readPeople(); pessoas.splice(i, 1); buildPeople(); };
+      lg.appendChild(rm);
+    }
+    fs.appendChild(lg);
+    fs.appendChild(field("Nome completo", "text", "nome", i, i === 0 ? "name" : "off"));
+    fs.appendChild(field("E-mail", "email", "email", i, i === 0 ? "email" : "off", "para receber o convite"));
+    if (i === 0) fs.appendChild(field("WhatsApp com DDD", "tel", "whats", i, "tel", "(89) 90000-0000"));
+    box.appendChild(fs);
+  });
+  const add = $("#addP"); add.hidden = !(tipo === "grupo" && pessoas.length < MAX_GRUPO);
+}
+function readPeople(){
+  $$("#people input").forEach(inp => { const p = pessoas[+inp.dataset.i]; if (p) p[inp.dataset.k] = inp.value; });
+}
+$("#addP").onclick = () => { readPeople(); if (pessoas.length < MAX_GRUPO){ pessoas.push({ nome: "", email: "", whats: "" }); buildPeople(); } };
+
+function validar(){
+  readPeople();
+  const emails = new Set();
+  for (let i = 0; i < pessoas.length; i++){
+    const p = pessoas[i], quem = pessoas.length > 1 ? "Pessoa " + (i + 1) + ": " : "";
+    const nome = p.nome.trim().replace(/\s+/g, " ");
+    if (nome.length < 5 || !nome.includes(" ")) return quem + "informe nome e sobrenome.";
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(p.email.trim())) return quem + "digite um e-mail válido, como nome@exemplo.com.";
+    const em = p.email.trim().toLowerCase();
+    if (emails.has(em)) return "Cada pessoa precisa de um e-mail diferente.";
+    emails.add(em);
+    if (i === 0 && p.whats.replace(/\D/g, "").length < 10) return quem + "digite o WhatsApp com DDD.";
+  }
+  if (!$("#aceite").checked) return "Marque a caixa de concordância para continuar.";
+  return "";
+}
+
+const MSG = {
+  dados: "Confira os dados e tente de novo.",
+  email_repetido: "Cada pessoa precisa de um e-mail diferente.",
+  limite: "Muitas inscrições ao mesmo tempo. Tente de novo em alguns minutos ou fale com o Instituto pelo WhatsApp.",
+  cheio: "As vagas do sistema de cadastro esgotaram. Fale com o Instituto pelo WhatsApp.",
+  rede: "Não foi possível conectar. Verifique a internet e tente de novo.",
+  servidor: "Algo deu errado do nosso lado. Tente de novo em instantes."
+};
+
+$("#regForm").addEventListener("submit", async e => {
+  e.preventDefault();
+  if (enviando) return;
+  const erro = validar();
+  $("#regErr").textContent = erro;
+  if (erro) return;
+  enviando = true; const btn = $("#regBtn"); btn.disabled = true; btn.textContent = "Enviando…";
+  let j;
+  try {
+    const res = await fetch(API_URL, { method: "POST", redirect: "follow", body: JSON.stringify({
+      acao: "cadastro", tipo, aceite: true, hp: $("#hp").value,
+      pessoas: pessoas.map((p, i) => ({ nome: p.nome.trim(), email: p.email.trim(), whats: i === 0 ? p.whats.trim() : "" }))
+    }) });
+    j = await res.json();
+  } catch(_){ j = { ok: false, erro: "rede" }; }
+  enviando = false; btn.disabled = false; btn.textContent = "Continuar para o pagamento";
+  if (!j.ok){ $("#regErr").textContent = MSG[j.erro] || MSG.servidor; return; }
+  mostrarPagamento(j);
+});
+
+function copiar(texto, btn){
+  const ok = () => { btn.textContent = "Código copiado!"; setTimeout(() => { btn.textContent = "Copiar código Pix"; }, 2200); };
+  if (navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(texto).then(ok, () => fallback()); }
+  else fallback();
+  function fallback(){ const ta = document.createElement("textarea"); ta.value = texto; document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); } catch(_){} ta.remove(); ok(); }
+}
+
+function blocoPix(chave, valor){
+  const w = el("div", "pay-box");
+  w.appendChild(el("h3", null, "Pague com Pix"));
+  w.appendChild(el("div", "pay-total", brl(valor)));
+  const img = el("img", "qr"); img.src = "pix-" + (chave === "pix" ? "individual" : "grupo") + ".png"; img.width = 260; img.height = 260; img.alt = "QR Code do Pix de " + brl(valor);
+  w.appendChild(img);
+  const ta = el("textarea", "copia"); ta.readOnly = true; ta.value = PIX_CODIGO[chave]; ta.setAttribute("aria-label", "Código Pix copia e cola");
+  ta.addEventListener("focus", () => ta.select());
+  w.appendChild(ta);
+  const b = el("button", "btn block", "Copiar código Pix"); b.type = "button"; b.onclick = () => copiar(PIX_CODIGO[chave], b);
+  w.appendChild(b);
+  const ol = el("ol", "how");
+  ["Abra o app do seu banco e escolha Pix > Pagar.", "Leia o QR Code ou cole o código “copia e cola”.", "Confira se o recebedor é INETRIS e o valor é " + brl(valor) + ".", "Confirme o pagamento."].forEach(t => ol.appendChild(el("li", null, t)));
+  w.appendChild(ol);
+  return w;
+}
+function blocoCartao(url, valor, parcelas){
+  const w = el("div", "pay-box");
+  w.appendChild(el("h3", null, "Pague no cartão"));
+  w.appendChild(el("div", "pay-total", brl(valor)));
+  w.appendChild(el("p", "hint", "Em até " + parcelas + "x sem juros. Você será levada à página de pagamento da InfinitePay, em uma nova aba."));
+  const a = el("a", "btn block gold", "Pagar " + brl(valor) + " no cartão"); a.href = url; a.target = "_blank"; a.rel = "noopener";
+  w.appendChild(a);
+  return w;
+}
+
+function mostrarPagamento(j){
+  const s2 = $("#step2"); s2.replaceChildren();
+  const n = pessoas.length, valor = TIPOS[tipo].valor;
+  const box = el("div", "pay-box");
+  if (j.status === "ja_pago"){
+    box.appendChild(el("h3", null, "Inscrição já paga"));
+    box.appendChild(el("p", "hint", "Este e-mail já tem um pagamento confirmado" + (j.codigos && j.codigos[0] ? " (código " + j.codigos[0] + ")" : "") + ". Se precisar de ajuda, fale com o Instituto pelo WhatsApp ou e-mail no fim da página."));
+    s2.appendChild(box);
+  } else {
+    if (tipo === "grupo"){
+      const info = el("div", "done");
+      info.appendChild(el("b", null, n + " pessoas cadastradas. "));
+      info.appendChild(document.createTextNode("Cada pessoa paga o próprio ingresso (" + brl(valor) + "), no Pix ou no cartão, como preferir. Pague o seu abaixo e envie as formas de pagamento para as outras pessoas."));
+      if (j.avisados > 0) info.appendChild(document.createTextNode(" Também enviamos as formas de pagamento por e-mail para cada pessoa do grupo."));
+      s2.appendChild(info);
+      const m = el("div", "method");
+      const area = el("div"); area.style.width = "100%";
+      const bp = el("button", null, "Pix"), bc = el("button", null, "Cartão");
+      bp.type = bc.type = "button";
+      const set = k => { bp.setAttribute("aria-pressed", String(k === "pix")); bc.setAttribute("aria-pressed", String(k === "cartao")); area.replaceChildren(k === "pix" ? blocoPix("grupo", valor) : blocoCartao(LINK_CARTAO_GRUPO, valor, 3)); };
+      bp.onclick = () => set("pix"); bc.onclick = () => set("cartao");
+      m.append(bp, bc); s2.appendChild(m); s2.appendChild(area); set("pix");
+      const msg = "Oi! Vamos juntas ao Elas em Evidência, dia 5 de dezembro. Cada pessoa paga o próprio ingresso (" + brl(valor) + ").\n\nPix (copia e cola):\n" + PIX_CODIGO.grupo + "\n\nCartão, em até 3x sem juros:\n" + LINK_CARTAO_GRUPO + "\n\nPague no seu nome, para a organização identificar o seu pagamento. Mais informações: " + location.href.split("#")[0];
+      const zap = el("a", "btn block outline", "Enviar para as outras pessoas pelo WhatsApp");
+      zap.href = "https://wa.me/?text=" + encodeURIComponent(msg); zap.target = "_blank"; zap.rel = "noopener";
+      s2.appendChild(zap);
+    } else if (tipo === "pix"){
+      s2.appendChild(blocoPix("pix", valor));
+    } else {
+      s2.appendChild(blocoCartao(LINK_CARTAO, valor, 3));
+    }
+    const done = el("div", "done");
+    done.appendChild(el("b", null, "Depois de pagar: "));
+    done.appendChild(document.createTextNode(tipo === "grupo" ? "assim que a organização confirmar o pagamento de cada pessoa, o convite dela chega por e-mail." : "assim que a organização confirmar o pagamento, o convite chega por e-mail."));
+    if (j.codigos && j.codigos.length){
+      const ul = el("ul", "codes");
+      j.codigos.forEach((c, i) => { const li = el("li"); li.appendChild(el("b", null, c)); li.appendChild(document.createTextNode(pessoas[i] ? pessoas[i].nome.trim() : "")); ul.appendChild(li); });
+      done.appendChild(el("div", null, j.codigos.length > 1 ? "Códigos de inscrição:" : "Seu código de inscrição:")); done.appendChild(ul);
+    }
+    s2.appendChild(done);
+  }
+  const fechar = el("button", "btn block outline", "Fechar"); fechar.type = "button"; fechar.onclick = () => dlg.close();
+  s2.appendChild(fechar);
+  $("#step1").hidden = true; s2.hidden = false;
+  dlg.scrollTo({ top: 0 });
+}
+
+$$("#pay .seg button").forEach(b => b.addEventListener("click", () => setTipo(b.dataset.t)));
+$("#payClose").onclick = () => dlg.close();
+dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+dlg.addEventListener("close", () => { $("#step2").replaceChildren(); });
+$$("[data-pay]").forEach(a => a.addEventListener("click", e => { e.preventDefault(); openPay(a.dataset.pay); }));
+
+/* Barra fixa no celular: aparece depois do topo e some perto dos ingressos */
+(function(){
+  const bar = $("#bar"); if (!bar || !("IntersectionObserver" in window)) return;
+  let hero = true, buy = false;
+  const update = () => bar.classList.toggle("show", !hero && !buy);
+  new IntersectionObserver(e => { hero = e[0].isIntersecting; update(); }, { threshold: 0.2 }).observe($(".hero .stack"));
+  const io = new IntersectionObserver(e => { buy = e.some(x => x.isIntersecting); update(); }, { threshold: 0.15 });
+  io.observe($(".tickets")); io.observe($("#reserva"));
+})();
+</script>
+</body>
+</html>
