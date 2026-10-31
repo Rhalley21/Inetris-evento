@@ -6,6 +6,7 @@
 <title>Elas em Evidência — 5 de dezembro de 2026</title>
 <meta name="description" content="Um encontro presencial para mulheres que decidiram assumir o protagonismo da própria história. 5 de dezembro de 2026, das 15h às 21h.">
 <meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="only light">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Elas em Evidência — 5 de dezembro de 2026">
@@ -26,14 +27,7 @@
   --on-navy:#EAF0FF; --on-navy-m:#B4C0E3;
   --serif:"Cormorant Garamond","Iowan Old Style","Palatino Linotype",Georgia,serif;
   --sans:"Jost","Avenir Next","Segoe UI",system-ui,-apple-system,Arial,sans-serif;
-  color-scheme:light;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --paper:#0C1433; --hero:#0C1433; --tint:#101A40; --navy:#14246A; --navy-d:#08102E;
-    --ink:#EAF0FF; --muted:#A9B5D8; --line:#26346A; --card:#121C47; --gold-t:#E6BE6E; --frame:#5B5230;
-    --btn-bg:#E6BE6E; --btn-ink:#0A1740; --link:#9DB8F5; color-scheme:dark;
-  }
+  color-scheme:only light;
 }
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -223,7 +217,6 @@ body:has(dialog[open]){overflow:hidden}
 .check{display:flex;gap:12px;align-items:flex-start;font-size:16px;color:var(--muted);line-height:1.5}
 .check input{width:22px;height:22px;margin-top:2px;flex:none;accent-color:var(--navy)}
 .err{min-height:22px;font-size:16px;color:#B3261E}
-@media (prefers-color-scheme:dark){.err{color:#FF9D96}}
 #step2{display:grid;gap:18px}
 .pay-box{display:grid;gap:16px;justify-items:center;text-align:center}
 .pay-box h3{font-size:30px}
